@@ -14,11 +14,11 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "stanfordparser-gwang"
-  gem.homepage = "http://github.com/gwang/stanfordparser-gwang"
+  gem.name = "stanfordparser"
+  gem.homepage = "http://github.com/gwang/stanfordparser"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "This is a Ruby wrapper for the Stanford Natural Language Parser."
+  gem.description = "It is based on the original work done by Bill McNeal (version 2.2.0 in 2008). Since there Stanford Parser has advanced with new version while the wrapper development stalled. With this updated version, two major improvements are implemented: a) now compatible with newer version of Stanford Parser (tested with version 1.6.5). b) With added features."
   gem.email = "mywanggou@gmail.com"
   gem.authors = ["Gang Wang"]
   # dependencies defined in Gemfile
