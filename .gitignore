@@ -46,3 +46,7 @@ pkg
 
 # For rubinius:
 #*.rbc
+
+#For Subversion
+.svn
+Gemfile.lock
